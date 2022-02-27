@@ -25,8 +25,9 @@ class kolo
  
 int main()
 {
-    kolo k1;
+    kolo k1,k2;
     k1.przetworz();                                                  
+    k2.przetworz();                                                  
 
     return 0;
 }
