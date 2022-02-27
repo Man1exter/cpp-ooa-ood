@@ -18,7 +18,7 @@ int main()
                 cout<<tab[i]<<" ";      
         }
         
-        cout<<endl;
+        cout << endl;
         
         for(int i=0;i<n;i++)
                 if(tab[i]%2==0) 
