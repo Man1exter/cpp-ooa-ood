@@ -25,9 +25,8 @@ class kolo
  
 int main()
 {
-    kolo k1, k2;
-    k1.przetworz();
-    k2.przetworz();                                                   
+    kolo k1;
+    k1.przetworz();                                                  
 
     return 0;
 }
@@ -46,10 +45,12 @@ void kolo::oblicz()
 
 void kolo::wynik()
 {
+cout << "-------------------" << '\n';
 cout << "Parametry: ";
 cout << "Promien: " << promien << '\n';
 cout << "Pole: " << pole << '\n';
 cout << "Obwod: " << obwod << '\n';
+cout << "-------------------" << '\n';
 }
 
 void kolo::przetworz()
