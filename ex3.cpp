@@ -38,6 +38,7 @@ int main()
 
 kolo::kolo(double r)
 {
+    promien = r;
     cout << "Zainicjowanie wartosci - promienia " << "\n";
 }
 
